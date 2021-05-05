@@ -50,11 +50,7 @@ def calculate_bytes(str_val):
 
 def detect_key_press():
     global condition
-    #keyboard.wait("esc")
     condition = False
-    raise Exception("Aborting server gracefully")
-
-
 class SocketHandler(threading.Thread):
     
     

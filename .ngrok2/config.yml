@@ -1,0 +1,11 @@
+authtoken: 1qhdmMi23FGgPzzJY4fOsOLAX6h_2Rc1xSPT19RC8sZrv8W5o
+region: ap
+console_ui: true
+web_addr: localhost:4040
+
+tunnels:
+  gps:
+    proto: tcp
+    addr: 8001
+    remote_addr: 1.tcp.ap.ngrok.io:20812
+    inspect: false
