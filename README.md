@@ -8,4 +8,6 @@
 
 #### The DataParser class is able to retrieve all codec-8 information from teltonika devices. 
 
+#### A jupyter notebook is provided with unit tests for testing the parser along with ingestion into post-gis
+
 #### ToDO Add pipeline diagram
