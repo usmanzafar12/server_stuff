@@ -62,9 +62,7 @@ class SocketHandler(threading.Thread):
         self.daemon = True
         self.lock = lock
         self.imei = ""
-        self.allowed = ("860147042649242", "860147042626836", \
-            "860147042626570", "860147042636561", "860147042636678", "860147042630903",\
-                 "860147042635654", "867060033461050", "867060038752941", "860147042630861")
+        self.allowed = ()
      
     def handshake(self):
         pass
