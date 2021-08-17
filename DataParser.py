@@ -8,6 +8,7 @@ from typing import List, Dict
 
 
 class DataParser:
+    """ Class parses whole codec-8 of teltonika into dictionaries """
     
     def __init__(self, imei):
         """All attributes of teltonika parser are listed here"""
@@ -54,7 +55,7 @@ class DataParser:
         return [lon, lat]#, alt, angle, sat, speed]
         
     def read_io(self, io, event_start, data_dict):
-        "should get input starting at io part"
+        "should get input starting at avl packet"
         event_id_end = event_start + 2
         event_id = int(io[event_start:event_id_end], 16)
         num_total_end = event_id_end + 2
