@@ -1,4 +1,4 @@
-# Teltonika Server & parser for ingestion of telematics data.
+# Teltonika Server & parser (codec 8) for ingestion of telematics data.
 #### -The project highlights how  sensor data can be fed into a on-prem time series database and further inserted into post-gis for analytics. 
 #### -The simple-server reads an incoming teltonika package and ingests it in a database. 
 #### -All code is dockerized and you can run the docker commandss to create the containers or alternatively you may use docker-compose
